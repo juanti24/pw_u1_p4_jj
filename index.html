@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 5</title>
+</head>
+
+<style>
+/* Selector Universal*/
+*{
+    color:blue
+}
+
+/* Selector  Tipo de Elemento*/
+h1{
+    color:rgb(34, 163, 62);
+}
+ p{
+    size:17px
+ }
+
+/* Selector Clase*/
+.clase1 {
+        color:black;
+    }
+
+/* Selector ID */
+#idtitulogrande{
+    color:green;
+}
+
+a[href]{
+    color:brown
+}
+
+a[href*=".ec"]{
+    color:red;
+}
+
+img[alt*="puede"]{
+    color:blueviolet;
+}
+
+label:hover{
+    color:red;
+    background-color: burlywood;
+    font-size: 50px;
+}
+
+
+</style>
+
+
+
+
+
+
+<body>
+    <header></header>
+    <nav></nav>
+    <section></section>
+    <footer></footer> 
+
+    <header>
+        <!--Forma en linea.- solo aplica alelemento-->
+        <h1>Banco del Pichincha</h1>
+        <h1 style = "color:red">Banco del Pichincha</h1>
+        <h4 class="clase1"> Selector Clase1</h4>
+        <h3 class="clase1">Selector Clase2</h3>
+        <h3 class="clase2">Selector Clase2</h3>
+        <h6>Banco del Pichincha</h6>
+        <h2 id ="idtitulogrande"> Selector por ID</h2>
+        <img src="./img/cabecera.jpg" alt="No se pudo cargar la imagen 💀">
+    </header>
+
+    <nav>
+        <ul>
+            <!--
+            <li>Cuentas</li>
+            <li>Tarjetas</li>
+            <li>Préstamos</li>
+            <li>Inversiones</li>
+            <li>Servicios</li>
+            -->
+            <li>
+                <a href="https://www.google.com.ec/">Google</a>
+            </li>
+            <li>
+                <a href="https://outlook.live.com/owa/">Hotmail</a>
+            </li>
+            <li>
+                <a href="https://www.apple.com.ec/">Apple</a>
+            </li>
+
+            <label for="idnombre">Nombre: </label>
+            <input id="idnombre" type="text">
+
+            <label for="idapellido">Apellido: </label>
+            <input id="idapellido" type="text">
+
+
+
+        </ul>
+
+    </nav>
+
+    <section>
+        <article>
+            <h3>Primer párrafo</h3>
+            <time datetime="12-10-2023">Publicado el 12-10-2023</time>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cum sunt quis adipisci harum
+                voluptatem nostrum possimus beatae et libero itaque delectus assumenda officiis facilis blanditiis autem
+                repudiandae consectetur mollitia.</p>
+            <footer>
+                <p>Comentarios (3)</p>
+            </footer>
+        </article>
+        <article>
+            <h3>Segundo párrafo</h3>
+            <time datetime="13-10-2023">Publicado el 13-10-2023</time>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et odio a consequuntur eveniet assumenda
+                distinctio earum, animi eum veniam autem? Sunt autem asperiores id error reiciendis tempore! Neque
+                beatae cumque iusto, ut vel alias. Aut, nam fugiat. Cum, ea ex.</p>
+            <footer>
+                <p>Comentarios (10)</p>
+            </footer>
+        </article>
+    </section>
+
+    <aside>
+        <blockquote cite="https://www.pichincha.com/portal">
+            Referencia 1
+        </blockquote>
+        <blockquote cite="https://www.w3schools.com/charsets/ref_emoji.asp">
+            Referencia 2
+        </blockquote>
+    </aside>
+
+    <footer>
+        Derechos reservados 2022-2023
+    </footer>
+</body>
+
+</html>
