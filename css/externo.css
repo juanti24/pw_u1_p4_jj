@@ -1,9 +1,9 @@
 * {
-    color: blue;
+    color: yellow;
 }
 
 h1{
-    color: yellow;
+    color: blue;
 }
 p{
     size: 17px;
@@ -35,3 +35,4 @@ label:hover{
     background-color: blue;
     font-size: 50px;
 }
+
